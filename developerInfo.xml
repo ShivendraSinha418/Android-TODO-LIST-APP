@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".AboutPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebe39d"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:src="@drawable/about"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About the Developer"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#4f8a2d"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shivendra Sinha, currently persuing
+        B.Tech from United College of Engineering I.T department,
+ has created this Android Application under the Summer InternShip program of
+Android Application development Cource from IIIT Allahabad."
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#4f8a2d"/>
+
+
+</LinearLayout>

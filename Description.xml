@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Description"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d4c898">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:background="#4f8a2d"
+        android:text="Task Description"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#ebe39d"/>
+    <TextView
+        android:id="@+id/showdesc"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#4f8a2d"
+        android:text="This is a Sample to test the output of the file."/>
+    <EditText
+        android:id="@+id/desctxt"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:hint="Enter you descrption here"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:text="Save"/>
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"/>
+    </LinearLayout>
+
+</LinearLayout>
